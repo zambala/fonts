@@ -1,0 +1,31 @@
+#block-samir-block-102 {margin-top: -30px;}
+#block-samir-block-102.block {margin-bottom:10px;}
+#droplist {text-align: center; z-index: 100; position: relative; margin: -1em auto 0 auto; -moz-user-select: none; background-color: #cf0082;height:2.6em;max-width:70em;}
+ul.topLevel {max-width: 58em;padding: 0 0 0 0; margin: 0 auto; list-style: none outside none; white-space: nowrap;}
+ul.topLevel > li { float: left !important; left: 0; padding: 0 18px 0 5px;}
+ul.topLevel > li {  }
+ul.topLevel > li > a, ul.topLevel > li > span { left: 0; display: block; float: left; font: 400 1.095em/2.6em "Segoe UI",serif; color: white;text-transform: uppercase; padding: 0px 0px; cursor: default; text-decoration: none;}
+ul.topLevel > li:hover > a, ul.topLevel > li:hover > span { color: #A30053; border-top: 1px #A30053; text-decoration: overline; background-color: #f2f2f2; background-color: rgba(242, 242, 242, 0.9);border-radius: 8px 8px 0px 0px;}
+ul.topLevel > li:hover > a { cursor: pointer; }
+ul.topLevel > li .sub {width: 100%; position: absolute; left: -9999px; top: 44px; z-index: 100; text-align: left;}
+ul.topLevel li.subPanel { position: absolute; width: 100%; height: 0px; left: 0px; top: 3em; overflow: hidden; background-color: #f2f2f2; background: none repeat scroll 0% 0% rgba(242, 242, 242, 0.9); padding: 0px; z-index: 10; border: 0px none; border-radius: 1em 1em 1em 1em; box-shadow: 0px 3px 7px -4px rgba(0, 0, 0, 0.8);}
+ul.topLevel > li .sub .subInner { white-space: normal; display: block; max-width: 30em; opacity: 0;}
+ul.topLevel > li .sub .subInner dl { margin: 0px; float: left; max-width: 250px; padding: 10px; }
+ul.topLevel > li .sub .subInner dl dt {padding: 3px 0 5px 0; margin: 0 auto 5px auto; font: 400 20px/22px Georgia,serif; color: #d70a53; border-bottom: 1.5px solid #e41ad6; }
+ul.topLevel > li .sub .subInner dl dd { padding: 0px; margin: 0px; }
+ul.topLevel > li .sub .subInner dl dd a { display: block; padding: 3px 0px 3px 15px; margin: 0px; text-decoration: none; font: 400 1.313em/1.35 Georgia,serif; color: #1a71e4; }
+ul.topLevel > li .sub .subInner dl dd a:hover { color: #A30053; text-decoration: overline;}
+ul.topLevel > li:hover .sub { left: 0px; }
+ul.topLevel > li:hover .sub .subInner { opacity: 1;}
+ul.topLevel > li.buddhism:hover ~ li.subPanel { height: 245px; width: 360px;left: 2em;position: absolute;}
+ul.topLevel > li.scriptures:hover ~ li.subPanel {height: 210px; width: 320px; left: 42em;position: absolute;}
+ul.topLevel > li.christianity:hover ~ li.subPanel { height: 245px; width: 320px; left: 20.5em;position: absolute;}
+@media only screen and (max-width: 480px) {
+	.droplist { display: none; }
+	#info h3.smartphone { display: block; }
+}
+ul.topLevel > li.christianity .sub .subInner{left: 20.5em;position: absolute;}
+ul.topLevel > li.scriptures .sub .subInner {left: 42.5em;position: absolute;}
+ul.topLevel > li.buddhism .sub .subInner{left: 2em;position: absolute;}
+
+.nav li, .nav ul.menu li {float: left !important;}
