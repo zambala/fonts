@@ -1,6 +1,6 @@
 #block-samir-block-102 {margin-top: -30px;}
 #block-samir-block-102.block {margin-bottom:10px;}
-#droplist {text-align: center; z-index: 100; position: relative; margin: -1em auto 0 auto; -moz-user-select: none; background-color: #cf0082;height:2.6em;max-width:70em;}
+#droplist {text-align: center; z-index: 100; position: relative; margin: 0 auto; -moz-user-select: none; background-color: #cf0082;height:2.6em;max-width:70em;}
 ul.topLevel {max-width: 58em;padding: 0 0 0 0; margin: 0 auto; list-style: none outside none; white-space: nowrap;}
 ul.topLevel > li { float: left !important; left: 0; padding: 0 18px 0 5px;}
 ul.topLevel > li {  }
